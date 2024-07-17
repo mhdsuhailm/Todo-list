@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # To-do list - [view live](https://darkwool.github.io/to-do-list/)
 
 Project made for The Odin Project curriculum, in this project users can create, update, and delete tasks or projects.
@@ -65,3 +66,6 @@ mark as completed, etc...?
 1. We haven’t learned any techniques for actually storing our data anywhere, so when the user refreshes the page, all of their todos will disappear! You should add some persistence to this todo app using the Web Storage API. 
 
 Check the assignment's page [here.](https://www.theodinproject.com/lessons/node-path-javascript-todo-list)
+=======
+# Todo-list
+>>>>>>> a7d2c86a921620c8c27862199559a9d157c98724
