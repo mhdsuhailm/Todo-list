@@ -1,11 +1,11 @@
-/******/ (() => { // webpackBootstrap
+/******/ (function() { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	// The require scope
 /******/ 	var __webpack_require__ = {};
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
+/******/ 	!function() {
 /******/ 		__webpack_require__.g = (function() {
 /******/ 			if (typeof globalThis === 'object') return globalThis;
 /******/ 			try {
@@ -14,10 +14,10 @@
 /******/ 				if (typeof window === 'object') return window;
 /******/ 			}
 /******/ 		})();
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
+/******/ 	!function() {
 /******/ 		var scriptUrl;
 /******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
 /******/ 		var document = __webpack_require__.g.document;
@@ -34,13 +34,13 @@
 /******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
 /******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
 /******/ 		__webpack_require__.p = scriptUrl;
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
 
 ;// CONCATENATED MODULE: ./src/images/GitHub-Mark.png
-const GitHub_Mark_namespaceObject = __webpack_require__.p + "images/img_b039b2d83982c8256af3.png";
+var GitHub_Mark_namespaceObject = __webpack_require__.p + "images/img_b039b2d83982c8256af3.png";
 ;// CONCATENATED MODULE: ./src/modules/tasks.js
 const tasksHandler = {
     items: [],
@@ -728,7 +728,7 @@ var formatters = {
     return addLeadingZeros(fractionalSeconds, token.length);
   }
 };
-/* harmony default export */ const lightFormatters = (formatters);
+/* harmony default export */ var lightFormatters = (formatters);
 ;// CONCATENATED MODULE: ./node_modules/date-fns/esm/_lib/format/formatters/index.js
 
 
@@ -1595,7 +1595,7 @@ function formatTimezone(offset, dirtyDelimiter) {
   return sign + hours + delimiter + minutes;
 }
 
-/* harmony default export */ const format_formatters = (formatters_formatters);
+/* harmony default export */ var format_formatters = (formatters_formatters);
 ;// CONCATENATED MODULE: ./node_modules/date-fns/esm/_lib/format/longFormatters/index.js
 var dateLongFormatter = function (pattern, formatLong) {
   switch (pattern) {
@@ -1692,7 +1692,7 @@ var longFormatters = {
   p: timeLongFormatter,
   P: dateTimeLongFormatter
 };
-/* harmony default export */ const format_longFormatters = (longFormatters);
+/* harmony default export */ var format_longFormatters = (longFormatters);
 ;// CONCATENATED MODULE: ./node_modules/date-fns/esm/_lib/getTimezoneOffsetInMilliseconds/index.js
 /**
  * Google Chrome as of 67.0.3396.87 introduced timezones with offset that includes seconds.
@@ -1818,7 +1818,7 @@ var formatDistance = function (token, count, options) {
   return result;
 };
 
-/* harmony default export */ const _lib_formatDistance = (formatDistance);
+/* harmony default export */ var _lib_formatDistance = (formatDistance);
 ;// CONCATENATED MODULE: ./node_modules/date-fns/esm/locale/_lib/buildFormatLongFn/index.js
 function buildFormatLongFn(args) {
   return function () {
@@ -1863,7 +1863,7 @@ var formatLong = {
     defaultWidth: 'full'
   })
 };
-/* harmony default export */ const _lib_formatLong = (formatLong);
+/* harmony default export */ var _lib_formatLong = (formatLong);
 ;// CONCATENATED MODULE: ./node_modules/date-fns/esm/locale/en-US/_lib/formatRelative/index.js
 var formatRelativeLocale = {
   lastWeek: "'last' eeee 'at' p",
@@ -1878,7 +1878,7 @@ var formatRelative = function (token, _date, _baseDate, _options) {
   return formatRelativeLocale[token];
 };
 
-/* harmony default export */ const _lib_formatRelative = (formatRelative);
+/* harmony default export */ var _lib_formatRelative = (formatRelative);
 ;// CONCATENATED MODULE: ./node_modules/date-fns/esm/locale/_lib/buildLocalizeFn/index.js
 function buildLocalizeFn(args) {
   return function (dirtyIndex, options) {
@@ -2048,7 +2048,7 @@ var localize = {
     defaultFormattingWidth: 'wide'
   })
 };
-/* harmony default export */ const _lib_localize = (localize);
+/* harmony default export */ var _lib_localize = (localize);
 ;// CONCATENATED MODULE: ./node_modules/date-fns/esm/locale/_lib/buildMatchFn/index.js
 function buildMatchFn(args) {
   return function (string) {
@@ -2214,7 +2214,7 @@ var match = {
     defaultParseWidth: 'any'
   })
 };
-/* harmony default export */ const _lib_match = (match);
+/* harmony default export */ var _lib_match = (match);
 ;// CONCATENATED MODULE: ./node_modules/date-fns/esm/locale/en-US/index.js
 
 
@@ -2245,10 +2245,10 @@ var locale = {
     firstWeekContainsDate: 1
   }
 };
-/* harmony default export */ const en_US = (locale);
+/* harmony default export */ var en_US = (locale);
 ;// CONCATENATED MODULE: ./node_modules/date-fns/esm/_lib/defaultLocale/index.js
 
-/* harmony default export */ const defaultLocale = (en_US);
+/* harmony default export */ var defaultLocale = (en_US);
 ;// CONCATENATED MODULE: ./node_modules/date-fns/esm/format/index.js
 
 
@@ -2938,7 +2938,7 @@ function closeMenu() {
 
 
 ;// CONCATENATED MODULE: ./src/images/walking-outside.png
-const walking_outside_namespaceObject = __webpack_require__.p + "images/img_976e8450074fa4ae177b.png";
+var walking_outside_namespaceObject = __webpack_require__.p + "images/img_976e8450074fa4ae177b.png";
 ;// CONCATENATED MODULE: ./src/modules/ui/ui-tasks.js
 
 
